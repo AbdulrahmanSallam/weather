@@ -1,0 +1,176 @@
+li {
+    list-style: none;
+}
+
+::placeholder {
+    color: #766F74 !important;
+}
+
+nav {
+    padding-block: 1.6rem !important;
+    background-color: #1E202B;
+}
+
+nav .logo-img {
+    width: 30%;
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav .nav-item .active {
+    color: #09c !important;
+    border: 2px solid #09c !important;
+}
+
+nav .nav-link{
+    border:2px solid #1E202B ;
+}
+
+nav .nav-link:hover{
+    color: #09c ;
+    border: 2px solid #09c ;
+}
+
+
+nav a.nav-link {
+    padding-inline: 1.33rem !important;
+    color: white !important;
+}
+
+nav .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-size: .9rem;
+}
+
+.input-group {
+    position: relative;
+}
+
+#find-btn {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    background-color: #09c;
+    z-index: 5;
+    padding-inline: 2rem;
+
+}
+
+#f-input {
+    padding-block: .9rem;
+    background-color: #1E202B;
+    color: #fff;
+}
+
+
+#main {
+    padding-block: 5rem;
+}
+
+#main .temp {
+    font-size: 4rem;
+}
+
+.temp img {
+    width: 100px;
+}
+
+#main .c-bottom img {
+    width: 25px;
+}
+
+.cards {
+    margin-top: 2.1rem;
+}
+
+.c-top {
+    background-color: #2D303D;
+}
+
+.c2-top {
+    background-color: #1E202B;
+}
+
+.card {
+    background-color: #323544;
+}
+
+.card2 {
+    background-color: #262936;
+}
+
+
+.ce-img img {
+    width: 55px;
+}
+
+
+.c-content p {
+    color: #09c;
+}
+
+#main {
+    background: url("../images/wallpaperflare.com_wallpaper.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* subcribe */
+
+#subscribe {
+    padding-block: 50px;
+    background-color: #2D303D;
+}
+
+.sub-input {
+    position: relative;
+
+}
+
+#subscribe-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    background-color: #09c;
+    z-index: 5;
+    padding-inline: 2rem;
+}
+
+
+
+#subscribe .right a {
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+    color: #09c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 10px;
+    }
+
+
+    #subscribe .right a {
+        width: 25px;
+        height: 25px;
+    }
+}

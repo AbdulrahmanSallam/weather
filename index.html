@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!--font awesome  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <nav class=" navbar navbar-expand-lg ">
+            <div class="container">
+                <div class="d-flex align-items-center navbar-brand">
+                    <div class="logo-img me-2">
+                        <img class="d-block w-100" src="images/logo@2x.png" alt="weather logo">
+                    </div>
+                    <div class="text-white">
+                        <h1 class="fs-5 m-0">Weather</h1>
+                        <span class="fs-6 text-white-50 ">tagline goes here</span>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: aliceblue;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto  ">
+                        <li class="nav-item ">
+                            <a class="nav-link rounded-pill  active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill " aria-current="page" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill" aria-current="page" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill " aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="main">
+            <div class="container">
+                <div class="input-group mb-3">
+
+                    <!-- SEARCH input -->
+                    <input id="f-input" type="text" class="border-0 form-control rounded-pill"
+                        placeholder="Find your location..." aria-label="Find your location..."
+                        aria-describedby="button-addon2">
+                    <button id="find-btn" class="btn text-white rounded-pill">Find</button>
+                </div>
+
+                <div class="cards row gy-4 gx-0  ">
+                    <!-- card 1 -->
+                    <div class=" col-lg-4 ">
+                        <div id="card1" class="card rounded-0 card1 h-100">
+
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="col-lg-4">
+                        <div id="card2" class="card2 rounded-0 text-center h-100 ">
+
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="col-lg-4">
+                        <div id="card3" class=" card3 card rounded-0 text-center h-100 ">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="subscribe">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="left col-md-9">
+                            <div class="sub-input">
+                                <input id="f-input" type="text" class="border-0 form-control rounded-pill"
+                                    placeholder="Enter your eamil to subscribe..."
+                                    aria-label="Enter your eamil to subscribe..." aria-describedby="button-addon2">
+                                <button id="subscribe-btn" class="btn text-white rounded-pill">Find</button>
+                            </div>
+                        </div>
+                        <div class="right col-md-3 ">
+                            <div class="d-flex h-100 justify-content-evenly align-items-center">
+                                <li><a href="#" class="rounded-circle"><i
+                                            class="fa-brands rounded-circle fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#" class="rounded-circle"><i
+                                            class="fa-brands rounded-circle fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#" class="rounded-circle"><i
+                                            class="fa-brands rounded-circle fa-google"></i></a>
+                                </li>
+                                <li><a href="#" class="rounded-circle"><i class="fa fa-pinterest"></i></a></li>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="text-white-50">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+        </section>
+    </main>
+
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
