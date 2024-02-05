@@ -87,7 +87,7 @@ function displayCard1() {
                                 <span id="country" class="text-white-50 fs-3">${country}</span>
                             </div>
                             <div class="temp d-flex mb-4 justify-content-evenly ">
-                                <div>${temp}<sup>o</sup>c</div><img src="${iconUrl}" alt="weather icon">
+                                <div>${temp}<sup>o</sup>c</div><img src="https:${iconUrl}" alt="weather icon">
                             </div>
                             <p>${status}</p>
                             <div class="c-bottom d-flex text-white-50  align-items-center">
@@ -118,7 +118,7 @@ function displayCard2() {
       <div class="c2-top d-flex text-white-50  justify-content-center align-items-center  p-2">${dayName}
       </div>
       <div class="c-content text-white  p-3">
-          <div class="ce-img my-3"><img  src="${iconUrl}" alt="weather icon"></div>
+          <div class="ce-img my-3"><img  src="https:${iconUrl}" alt="weather icon"></div>
           <div class="my-3"> <span class="d-block fs-3 fw-bold">${maxTemp} <sup>o</sup>C</span>
               <span>${minTemp} <sup>o</sup>C</span>
           </div>
@@ -133,7 +133,7 @@ function displayCard3() {
       <div class="c-top d-flex text-white-50  justify-content-center align-items-center  p-2">${dayName}
       </div>
       <div class="c-content text-white  p-3">
-          <div class="ce-img my-3"><img  src="${iconUrl}" alt="weather icon"></div>
+          <div class="ce-img my-3"><img  src="https:${iconUrl}" alt="weather icon"></div>
           <div class="my-3"><span class="d-block fs-3 fw-bold">${maxTemp} <sup>o</sup>C</span>
               <span>${minTemp} <sup>o</sup>C</span>
           </div>
